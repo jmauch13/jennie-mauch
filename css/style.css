@@ -1,0 +1,98 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: black;
+}
+
+h1, h2, h3 {
+    font-family: "Lobster", cursive;
+}
+
+.jumbotron {
+    padding: 30px;
+    background-image: linear-gradient(to right, #5637DD, #3046C5, #60106B);
+    color: white;
+}
+
+.card-text {
+    text-align: center;
+}
+
+.card {
+    height: 150px;
+    border: 3px solid #5637DD;
+}
+
+.navbar {
+    background-color: #60106B;
+}
+
+.jumbotron {
+    margin: 0;
+}
+
+.card {
+    margin: 25px;
+}
+
+.container{
+    background-color: black;
+    background-size: cover;
+    color: #6f5acb;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 60px;
+}
+
+.an1, .an2, .an3, .an4 {
+    display: inline-block;
+}
+
+.typed1 {
+    font-size: 1.5em;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 0;
+    animation: typing 1s steps(25, end)
+    forwards;
+}
+
+.typed2 {
+    font-size: 1.5em;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 0;
+    animation: typing 2s steps(25, end)
+    forwards;
+    animation-delay: 2s;
+}
+
+.typed3 {
+    font-size: 1.5em;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 0;
+    animation: typing 2s steps(25, end)
+    forwards;
+    animation-delay: 4s;
+}
+
+.typed4 {
+    font-size: 1.5em;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 0;
+    animation: typing 2s steps(25, end)
+    forwards;
+    animation-delay: 6s;
+}
+  
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+.social {
+    list-style: none;
+    margin-left: 250%;
+}
