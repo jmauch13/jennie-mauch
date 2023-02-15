@@ -93,6 +93,51 @@ h1, h2, h3 {
 }
 
 .social {
-    list-style: none;
-    margin-left: 250%;
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+.social ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.social li {
+    display: inline;
+}
+
+.page-header h1 {
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+}
+
+.my-carousel {
+    margin-top: 50px;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.my-carousel h1 {
+    margin-top: 100px;
+    text-align: center;
+    color: white;
+}
+
+.carousel-inner img {
+    height: 350px;
+    width: 100%;
+}
+
+.carousel-control-prev-icon {
+    background-color: #60106B;
+}
+
+.carousel-control-next-icon {
+    background-color: #60106B;
 }
