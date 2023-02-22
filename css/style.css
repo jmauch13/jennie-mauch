@@ -14,6 +14,11 @@ h1, h2 {
     color: white;
 }
 
+.btn {
+  background-color: #f67280 !important;
+  border-color: #f67280;
+}
+
 .card-text {
     text-align: center;
 }
@@ -62,6 +67,7 @@ h1, h2 {
     font-size: 100px;  
     width: 430px;
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     overflow: hidden;
     animation: shring-animation 2.2s steps(40,end) 2s forwards, blink .5s step-end infinite alternate;
@@ -198,7 +204,7 @@ h1, h2 {
 }
 
 .port-header {
-    margin-top: 30px;
+    margin-top: 40px;
     text-align: center;
     color: black;
 }
