@@ -25,8 +25,12 @@ h1, h2 {
 
 .card {
     height: 150px;
-    border: 3px solid black;
+    border: 3px solid #ca5576;
     box-shadow: 5px 5px 20px 2px #f67280;
+}
+
+.card-body {
+  font-size: smaller;
 }
 
 .navbar {
