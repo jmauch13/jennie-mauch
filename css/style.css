@@ -284,7 +284,7 @@ h4 {
 .portfolio-container {
   height: 200px;
   width: 50%;
-  border: 3px solid #f67280;
+  border: 3px solid #e35866;
   text-align: center;
   padding-top: 25px;
 }
@@ -293,9 +293,17 @@ h4 {
   font-size: 1.2em;
 }
 
-footer {
+.footer {
+  text-align: center;
   height: 150px;
   width: 100%;
   background-image: linear-gradient(to right, #f8b195, #c8899c, #ca5576);
   margin-top: 35px;
+}
+
+.foot-icon {
+  display: inline-block;
+  align-items: center;
+  margin-top: 25px;
+  padding: 10px;
 }
