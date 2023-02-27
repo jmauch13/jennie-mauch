@@ -134,30 +134,11 @@ h1, h2 {
     }
   }
 
-.footer {
-    background-color: #f67280;
-    margin-bottom: 0;
-}
 .social {
     width: 35%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 100px;
-}
-
-.social ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-
-.social li {
-    display: inline;
-}
-
-.social li img {
-    padding: 25px;
 }
 
 .page-header {
@@ -281,10 +262,14 @@ h4 {
   padding-right: 3px;
 }
 
+.mobile-container {
+  margin-top: 15px;
+}
+
 .portfolio-container {
   height: 200px;
   width: 50%;
-  border: 3px solid #e35866;
+  border: 3px solid #c33846;
   text-align: center;
   padding-top: 25px;
 }
@@ -306,4 +291,79 @@ h4 {
   align-items: center;
   margin-top: 25px;
   padding: 10px;
+}
+
+@media (max-width: 420px) {
+  .jumbotron h1 {
+    text-align: center;
+  }
+  .container h1:nth-child(2) {
+    margin-left: -8px;
+  }
+  .mobile-name {
+    margin-left: -8px;
+  }
+  .carousel-inner img {
+    height: 200px;
+  }
+  .my-carousel {
+    width: 80%;
+  }
+  .project-header {
+    margin-top: 80px;
+  }
+  .container{
+    width: 100%;
+    margin-left: auto;
+    margin-right: 15px;
+    text-align: center;
+    margin-top: 60px;
+  }
+  .port-img {
+    height: 100px;
+    width: 180px;
+  }
+  .port-img-mobile {
+    height: 130px;
+    width: 90px;
+  }
+  .port-container {
+    visibility: hidden;
+  }
+  .mobile-container {
+    visibility: visible;
+    width: 100%;
+    margin-top: -190px;
+    margin-left: -20px;
+  }
+  .port1 {
+    margin-top: 15px;
+    height: 230px;
+    width: 95%;
+    margin-left: 30px;
+  }
+  .port-carousel {
+    width: 75%;
+  }
+  .inner img {
+    height: 400px;
+  }
+  .portfolio-img {
+    height: 250px;
+    width: 400px;
+  }
+  .portfolio-container {
+    height: 180px;
+    width: 85%;
+  }
+  .port-header {
+    margin-top: 95px;
+  }
+  .desktop-container {
+    visibility: hidden;
+  }
+  .mobile-container-skills {
+    visibility: visible;
+    margin-top: -1250px;
+  }
 }
