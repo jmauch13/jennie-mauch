@@ -7,6 +7,11 @@ h1, h2 {
     font-family: 'Satisfy', cursive;
 }
 
+.container-fluid h2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.4em;
+}
+
 .jumbotron {
     margin: 0;
     padding: 30px;
@@ -79,7 +84,8 @@ h1, h2 {
 
   .container h1:nth-child(3) {
     color: black;
-    animation: slide-left 10s;
+    animation-delay: 5s;
+    animation: slide-left 5s;
   }
 
   @keyframes slide-left {
@@ -279,6 +285,7 @@ h4 {
 }
 
 .footer {
+  visibility: visible;
   text-align: center;
   height: 150px;
   width: 100%;
@@ -291,6 +298,43 @@ h4 {
   align-items: center;
   margin-top: 25px;
   padding: 10px;
+}
+
+.mobile-container-skills {
+  visibility: hidden;
+}
+
+.desktop-container {
+  visibility: visible;
+}
+
+@media (min-width: 769px) {
+  .desktop-footer {
+    margin-top: -1800px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .carousel-inner img {
+    height: 300px;
+  }
+  .my-carousel {
+    width: 65%;
+  }
+  .desktop-container {
+    visibility: hidden;
+  }
+  .mobile-container-skills {
+    visibility: visible;
+    margin-top: -1250px;
+  }
+  .port1 {
+    margin-top: 15px;
+    height: 190px;
+    width: 100%;
+  }
+  
 }
 
 @media (max-width: 420px) {
