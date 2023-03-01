@@ -3,8 +3,8 @@ body {
     /*background-color: black;*/
 }
 
-h1, h2 {
-    font-family: 'Satisfy', cursive;
+.name-header {
+  font-family: "Satisfy", cursive;
 }
 
 .container-fluid h2 {
@@ -145,6 +145,10 @@ h1, h2 {
     margin-left: auto;
     margin-right: auto;
     margin-top: 100px;
+}
+
+.port-header {
+  font-family: "Satisfy", cursive;
 }
 
 .page-header {
@@ -346,10 +350,13 @@ h4 {
     height: 250px;
     width: 400px;
   }
-  .jumbotron h1 {
+  
+}
+
+@media (max-width: 575px) {
+  .name-header, .name-sub-header {
     text-align: center;
   }
-  
 }
 
 @media (max-width: 420px) {
