@@ -331,8 +331,23 @@ h4 {
   }
   .port1 {
     margin-top: 15px;
-    height: 190px;
+    height: 200px;
     width: 100%;
+  }
+  .port-img {
+    height: 100px;
+    width: 180px;
+  }
+  .port-img-mobile {
+    height: 130px;
+    width: 90px;
+  }
+  .portfolio-img {
+    height: 250px;
+    width: 400px;
+  }
+  .jumbotron h1 {
+    text-align: center;
   }
   
 }
